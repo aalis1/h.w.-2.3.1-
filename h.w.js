@@ -4,8 +4,8 @@ let studentPoints = [
 ];
 
 for (let i = 0; i < studentPoints.length; i++) {
-  console.log("___________new itteration");
-  console.log("work with array : " + studentPoints);
+  console.log("___________NEW ITTERATION___________" + "\n");
+  console.log("work with array : " + studentPoints + "\n");
 
   for (let j = 0; j < studentPoints.length - i - 1; j++) {
     if (studentPoints[j] < studentPoints[j + 1]) {
@@ -15,8 +15,8 @@ for (let i = 0; i < studentPoints.length; i++) {
 
       console.log("compare an index ", j, j + 1);
       console.log("compare a pair ", studentPoints[j], studentPoints[j + 1]);
-      console.log("transitional array " + studentPoints);
+      console.log("transitional array " + studentPoints + "\n");
     }
   }
 }
-console.log(studentPoints);
+console.log("final array: " + studentPoints);
